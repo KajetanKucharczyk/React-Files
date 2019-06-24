@@ -1,0 +1,15 @@
+div.person{
+    margin-top: calc(50vh - 12vmax - 4vmax);
+}
+div.person-name{
+    width: 100%;
+    height: auto;
+    font-size: 12vmax;
+    text-align: center;
+}
+div.person-description{
+    width: 100%;
+    height: auto;
+    font-size: 4vmax;
+    text-align: center;
+}

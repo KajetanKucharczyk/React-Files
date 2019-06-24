@@ -1,0 +1,12 @@
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 2vmax;
+    text-align: center;
+    margin-left: calc((100% - 200px) / 2);
+    margin-top: 20vh;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
