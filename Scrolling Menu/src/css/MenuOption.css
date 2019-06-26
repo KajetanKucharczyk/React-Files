@@ -1,0 +1,21 @@
+li.menu-item{
+    list-style-type: none;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
+    border-bottom: 3px solid white;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    transition:all 0.2s ease-in-out;
+}
+
+li.menu-item:hover{
+    width: 50%;
+    margin-left: 25%;
+}
