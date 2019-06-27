@@ -1,0 +1,16 @@
+div.pages-container{
+    padding-top: 10vh;
+    color: black;
+}
+
+div.page{
+    width: 100vw;
+    height: 90vh;
+    position: fixed;
+    top: 10vh;
+    left: 0vw;
+    display: none;
+}
+div.page.current{
+    display: initial;
+}

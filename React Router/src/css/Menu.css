@@ -1,0 +1,61 @@
+div.menu-container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    z-index: 10;
+
+    transition: all 500ms ease-in-out
+}
+
+p.menu-title{
+    font-size: 10vh;
+    padding: 0px;
+    margin: 5vh 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul.menu-list{
+    padding: 0%;
+}
+
+div.menu-container.opened{
+    left: 0%;
+}
+
+div.menu-container.closed{
+    left: -100%;
+}
+
+div.close-button{
+    position: absolute;
+    bottom: 2vh;
+    left: 37.5%;
+    text-align: center;
+    width: 25%;
+    background-color: #e34d4d;
+    height: 6vh;
+    line-height: 6vh;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: all 200ms ease-in-out;
+}
+
+div.close-button:hover{
+    background-color: red;
+}
+
+@media (max-width: 1000px) { 
+
+    div.close-button{
+        width: 40%;
+        left: 30%;
+    }
+}
